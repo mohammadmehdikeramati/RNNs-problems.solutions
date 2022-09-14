@@ -10,5 +10,6 @@ In this investigation, I tried to use one hot encoding instead of embeding layer
 ```diff
 -Exception encountered when calling layer "gru" (type GRU). Input 'b' of 'MatMul' Op has type float32 that does not match type int32 of argument 'a'. 
 ```
-The script of this part uploaded as "One Hot Encode".
-## Fourth problem: a text classification problem form the scratch
+The script of this part is uploaded as "One Hot Encode".
+## Fourth problem: a text classification project form the scratch
+In this section, I made my real effort to do a text classification project form the scratch. Firstly, the imported data (it is accessable via https://www.kaggle.com/code/bindur/amazon-baby-sentiment/notebook) is preprocessed. In this stage respectively, the problem is turned into a binary classification, the rows contained "Nan" values are removed, the data is split to train (75%) and test (25%) and it is vectorized.   
