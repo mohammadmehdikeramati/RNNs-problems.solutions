@@ -6,7 +6,8 @@ Based on "[An Empirical Exploration of Recurrent Network Architectures.pdf](http
 ## Second problem: add vectorization layer on LSTM and GRU performance
 I was curios about the performance of a rnn architeucture for text classification purpose, when using vectorization layer instead of implementing vectorization out of network (it used in "Add Bias to Network" script). My ivestigation's results shows there is almost no difference between these tow approaches. I tested this issue on a text classification code and uoloaded its script as "Add Vectorization Layer ".    
 ## Third problem: using one hot encoding instead of embeding layer
+In this investigation, I tried to use one hot encoding instead of embeding layer to see its effect on performance of our network. Even though I succeded to encode the integer output of vectorization layer, I could not feed it to N.N architecture. Indeed, I faced this error:
 ```diff
-- In this investigation, I tried to use one hot encoding instead of embeding layer to see its effect on performance of our network. Even though I succeded to encode the integer output of vectorization layer, I could not feed it to N.N architecture. Indeed, I faced this error:  
+-  Exception encountered when calling layer "gru" (type GRU). Input 'b' of 'MatMul' Op has type float32 that does not match type int32 of argument 'a'. 
 ```
 
