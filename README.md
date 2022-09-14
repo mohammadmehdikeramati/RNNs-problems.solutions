@@ -10,4 +10,5 @@ In this investigation, I tried to use one hot encoding instead of embeding layer
 ```diff
 -Exception encountered when calling layer "gru" (type GRU). Input 'b' of 'MatMul' Op has type float32 that does not match type int32 of argument 'a'. 
 ```
-
+The script of this part uploaded as "One Hot Encode".
+## Fourth problem: a text classification problem form the scratch
