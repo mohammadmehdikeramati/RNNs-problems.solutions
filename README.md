@@ -21,5 +21,7 @@ Indeed, I faced this error:
 -Exception encountered when calling layer "gru" (type GRU). Input 'b' of 'MatMul' Op has type float32 that does not match type int32 of argument 'a'. 
 ```
 The script of this part is uploaded as "One Hot Encode".
-## Fourth problem: a text classification project form the scratch
-In this section, I made my real effort to do a text classification project form the scratch. Firstly, the imported data (it is accessable via https://www.kaggle.com/code/bindur/amazon-baby-sentiment/notebook) is preprocessed. In this stage respectively, the problem is turned into a binary classification, the rows contained "Nan" values are removed, the data is split to train (75%) and test (25%) and it is vectorized. Seconly, for classification purpose a three layer architecture consisted of an embeded , a LSTM and a fully connected layer is designed. Finally, the predicted data is compared with ground truth using classification_report. The script of this part is uploaded as "Project".
+## Fourth problem: a text classification project from scratch
+In this section, I made my real effort to do a text classification project from scratch. Firstly, the imported data (it is accessible via https://www.kaggle.com/code/bindur/amazon-baby-sentiment/notebook) is preprocessed. In this stage, respectively, the problem is turned into a binary classification, the rows containing "Nan" values are removed, the data is split to train (75%) and test (25%) and, it is vectorized. Secondly, for classification purpose a three- layer architecture consisting of an embeded , an LSTM and, a fully connected layer is designed. Finally, the predicted data is compared with ground truth using classification_report. The script of this part is uploaded as "Project".
+
+
