@@ -24,4 +24,5 @@ The script of this part is uploaded as "One Hot Encode".
 ## Fourth problem: a text classification project from scratch
 In this section, I made my real effort to do a text classification project from scratch. Firstly, the imported data (it is accessible via https://www.kaggle.com/code/bindur/amazon-baby-sentiment/notebook) is preprocessed. In this stage, respectively, the problem is turned into a binary classification, the rows containing "Nan" values are removed, the data is split to train (75%) and test (25%) and, it is vectorized. Secondly, for classification purpose a three- layer architecture consisting of an embeded , an LSTM and, a fully connected layer is designed. Finally, the predicted data is compared with ground truth using classification_report. The script of this part is uploaded as "Project".
 
+![pic4](https://user-images.githubusercontent.com/42337253/190312966-83e2102c-c68b-4059-a9f3-e8f24b6628a9.PNG)
 
