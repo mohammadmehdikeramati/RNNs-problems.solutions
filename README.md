@@ -5,7 +5,7 @@ It will be my pleasure if you share your experinces with these problems and your
 Based on "[An Empirical Exploration of Recurrent Network Architectures.pdf](https://github.com/mohammadmehdikeramati/Text-Classification/files/9563647/An.Empirical.Exploration.of.Recurrent.Network.Architectures.pdf)" paper, I came up with the fantastic impact of adding bias in improving convergence of LSTM and GRU. I tested this issue on a text classification code and uploaded its script as "Add Bias to Network".
 ## Second problem: add vectorization layer on LSTM and GRU performance
 I was curious about the performance of an rnn architecture for text classification purposes when using a vectorization layer instead of implementing vectorization out of the network (it was used in "Add Bias to Network" script). My investigation's results show almost no difference between these two approaches. I tested this issue on a text classification code and uploaded its script as "Add Vectorization Layer ". 
-
+![pic1](https://user-images.githubusercontent.com/42337253/190309085-5230788d-30db-488f-8317-553b1168db20.PNG)
 ## Third problem: using one hot encoding instead of embeding layer
 In this investigation, I tried to use one hot encoding instead of an embeding layer to see its effect on the performance of our network. Even though I succeeded in encoding the integer output of the vectorization layer, I could not feed it to N.N architecture. Indeed, I faced this error:
 ```diff
