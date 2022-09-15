@@ -13,7 +13,7 @@ In this investigation, I tried to use one hot encoding instead of an embeding la
 
 ![pic3](https://user-images.githubusercontent.com/42337253/190310122-6068f3cd-5829-4385-86c5-42a981ddb8ee.PNG)
 
-![pic2](https://user-images.githubusercontent.com/42337253/190309604-1ab96a4b-a418-40e8-a9c0-cc7fda3bcc47.PNG)
+                              ![pic2](https://user-images.githubusercontent.com/42337253/190309604-1ab96a4b-a418-40e8-a9c0-cc7fda3bcc47.PNG)
 
 
 Indeed, I faced this error:
