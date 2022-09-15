@@ -12,6 +12,8 @@ I was curious about the performance of an rnn architecture for text classificati
 In this investigation, I tried to use one hot encoding instead of an embeding layer to see its effect on the performance of our network. Even though I succeeded in encoding the integer output of the vectorization layer, I could not feed it to N.N architecture.
 
 ![pic2](https://user-images.githubusercontent.com/42337253/190309604-1ab96a4b-a418-40e8-a9c0-cc7fda3bcc47.PNG)
+
+
 Indeed, I faced this error:
 ```diff
 -Exception encountered when calling layer "gru" (type GRU). Input 'b' of 'MatMul' Op has type float32 that does not match type int32 of argument 'a'. 
