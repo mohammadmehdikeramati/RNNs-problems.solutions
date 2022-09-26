@@ -9,7 +9,7 @@ I was curious about the performance of an rnn architecture for text classificati
 
 ![pic1](https://user-images.githubusercontent.com/42337253/190309085-5230788d-30db-488f-8317-553b1168db20.PNG)
 
-Then, a model was learned (its weights were saved and then loaded) to evaluate last script performance on a desirable text. It is worth mentioing that because my system configuration was not good enough, I opted shorter sequence length to reduce the computational load.
+Then, a model was learned (its weights were saved and then loaded) to evaluate last script performance on a desirable text. It is worth mentioing that because my system configuration was not good enough, I opted shorter sequence length to reduce the computational load. This script uploaded as 'Save Model'.
 
 ## Third problem: using one hot encoding instead of embeding layer
 In this investigation, I tried to use one hot encoding instead of an embeding layer to see its effect on the performance of our network. Even though I succeeded in encoding the integer output of the vectorization layer, I could not feed it to N.N architecture.
